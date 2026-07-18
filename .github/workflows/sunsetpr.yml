@@ -1,0 +1,26 @@
+name: SunsetPR free scan
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: "17 3 * * 1"
+
+permissions:
+  contents: read
+
+jobs:
+  lifecycle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: synergia-yoshi/sunsetpr-action@v0.1.0
+        with:
+          fail-on: never
+          report: .sunsetpr/report.json
+      - uses: actions/upload-artifact@v7
+        if: always()
+        with:
+          name: sunsetpr-report
+          path: .sunsetpr/report.json
