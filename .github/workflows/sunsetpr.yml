@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: synergia-yoshi/sunsetpr-action@v0.1.3
+      - uses: synergia-yoshi/sunsetpr-action@v0.1.4
         with:
           fail-on: never
           report: .sunsetpr/report.json
