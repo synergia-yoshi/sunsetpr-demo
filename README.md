@@ -11,6 +11,6 @@ Two real GitHub workflows are visible:
 
 The draft repair PR's customer-side CI runs type checking, lint, existing tests, and the generated compatibility test. SunsetPR does not merge the PR.
 
-The free workflow is pinned to the immutable [v0.1.4](https://github.com/synergia-yoshi/sunsetpr-action/releases/tag/v0.1.4), whose bundled database contains 105 exact IDs and aliases checked against provider documentation on 2026-07-19.
+The free workflow is pinned to the immutable [v0.1.5](https://github.com/synergia-yoshi/sunsetpr-action/releases/tag/v0.1.5), whose bundled database contains 105 exact IDs and aliases checked against provider documentation on 2026-07-19.
 
 This fixture is a controlled demonstration, not a claim that every repository or migration can be repaired automatically.
