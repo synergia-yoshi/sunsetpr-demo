@@ -7,7 +7,7 @@ The `main` branch contains five deprecated or retired OpenAI, Anthropic, and Gem
 Two real GitHub workflows are visible:
 
 1. The free Action scans `main`, adds line annotations and official evidence, and makes no code change.
-2. The installed SunsetPR App created [draft repair PR #2](https://github.com/synergia-yoshi/sunsetpr-e2e/pull/2), changed five model references, added generated migration invariants, and left the environment-backed value for runtime confirmation.
+2. The installed SunsetPR App created [draft repair PR #2](https://github.com/synergia-yoshi/sunsetpr-demo/pull/2), changed five model references, added generated migration invariants, and left the environment-backed value for runtime confirmation.
 
 The draft repair PR's customer-side CI runs type checking, lint, existing tests, and the generated compatibility test. SunsetPR does not merge the PR.
 
