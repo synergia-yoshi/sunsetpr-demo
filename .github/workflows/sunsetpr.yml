@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
-      - uses: synergia-yoshi/sunsetpr-action@5765d08ee1a9b6a0e2cb8a6c9f19ad9ad9f1fa6e # v0.3.0
+      - uses: synergia-yoshi/sunsetpr-action@e8a72099d7b398279cea7e1ae6ef4770b4a31e48 # v0.3.1
         with:
           report: .sunsetpr/report.json
       - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1

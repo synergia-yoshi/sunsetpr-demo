@@ -22,6 +22,6 @@ test("free scan proof pins the current reviewed SunsetPR Action release", async 
   const workflow = await readFile(".github/workflows/sunsetpr.yml", "utf8");
   assert.match(
     workflow,
-    /uses: synergia-yoshi\/sunsetpr-action@5765d08ee1a9b6a0e2cb8a6c9f19ad9ad9f1fa6e # v0\.3\.0/,
+    /uses: synergia-yoshi\/sunsetpr-action@e8a72099d7b398279cea7e1ae6ef4770b4a31e48 # v0\.3\.1/,
   );
 });
